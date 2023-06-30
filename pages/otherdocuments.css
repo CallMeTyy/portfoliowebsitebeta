@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+#gamesbody{
+    background-color: #113311;
+}
+
+#gamesbody .pageleft{
+    background-color: #114411;
+    padding: 0 5px;
+}
+
+#gamesbody h1{
+    text-align: center;
+}
+
+#gamesbody .pageright{
+    background-color: #135013;
+}
+
+#comment{
+    color:orange;
+}
+
+
+#gamesbody .pagetext{
+    color: white;
+    margin: 10px;
+    background-color: #ad7373;
+    height:100%;
+}
+
+.gameimage{
+    width:30%;
+    height: 30%;
+}
+
+.gameimage img{
+    width: 10px;
+}

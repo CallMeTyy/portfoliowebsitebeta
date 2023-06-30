@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+#gamesbody{
+    background-color: #331111;
+    position: relative;
+}
+
+#gamesbody .pageleft{
+    background-color: #441111;
+    padding: 0 5px;
+}
+
+#gamesbody .pageright{
+    background-color: #501313;
+}
+
+
+#gamesbody .pagetext{
+    color: white;
+    margin: 10px;
+    background-color: #ad7373;
+    height:100%;
+}
+
+#gamesbody .sticky{
+    width: 20%;
+    height:25%;
+    position: fixed;
+    box-shadow: 4px 4px 6px -2px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    right:20%;
+    bottom: 20vh;
+}
+
+.sticky img{
+    position:absolute;
+    width: 100%;
+    height:100%;
+}
+
+
+.sticky{
+    pointer-events:none;
+}
+
+.sticky #tape{
+    z-index: 1;
+    width: 50%;
+    height:50%;
+    top: -5vh;
+    right: 25%;
+}
+
+iframe{
+    position:fixed;
+    width:26.5%;
+    height:30%;
+    bottom:10%;
+    left:5%;
+    border-top: 2vh #545454 solid;
+    border-radius: 4px 4px 0 0;
+    box-shadow: 4px 4px 6px -2px rgba(0,0,0,0.75);
+}
